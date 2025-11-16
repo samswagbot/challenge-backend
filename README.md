@@ -8,12 +8,12 @@ This repository contains my implementation, which focuses on configuring the pro
 
 I updated the repository to include several foundational elements expected in real-world backend systems:
 
-1. **Pinned Node.js version (`.nvmrc` + engines field)**  
-2. **Environment variable management (`.env.local`)**  
-3. **Project-wide linting & formatting (ESLint 9 flat config + Prettier)**  
-4. **Basic automated testing setup with Jest**  
-5. **GitHub Actions CI pipeline (lint + test on push/PR)**  
-6. **Documentation explaining all decisions (this README)**  
+1. **Pinned Node.js version (`.nvmrc` + engines field)**
+2. **Environment variable management (`.env.local`)**
+3. **Project-wide linting & formatting (ESLint 9 flat config + Prettier)**
+4. **Basic automated testing setup with Jest**
+5. **GitHub Actions CI pipeline (lint + test on push/PR)**
+6. **Documentation explaining all decisions (this README)**
 
 ---
 
@@ -30,3 +30,4 @@ I updated the repository to include several foundational elements expected in re
 
 ```bash
 npm install
+```

@@ -2,13 +2,11 @@
   "name": "challenge-backend",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
   "engines": {
     "node": ">=20.0.0"
   },
   "scripts": {
-    "dev": "NODE_ENV=development node mock-server/index.js",
-    "start": "NODE_ENV=production node mock-server/index.js",
+    "start": "node services",
     "test": "jest",
     "lint": "eslint .",
     "format": "prettier --write ."

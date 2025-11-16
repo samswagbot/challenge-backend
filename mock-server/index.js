@@ -1,6 +1,5 @@
 const { http, HttpResponse, delay } = require('msw');
 const { setupServer } = require('msw/node');
-const user = require('./mocks/user.json');
 
 let requestCount = 0;
 const userStore = {
